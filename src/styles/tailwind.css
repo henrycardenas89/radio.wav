@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.webgl {
+  position: absolute;
+  top: -20;
+  left: 0;
+  outline: none;
+}
