@@ -1,6 +1,6 @@
-const path = require("path");
-const express = require("express");
-const morgan = require("morgan");
+import path from "path";
+import express from "express";
+import morgan from "morgan";
 const app = express();
 module.exports = app;
 
