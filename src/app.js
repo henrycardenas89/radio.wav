@@ -2,7 +2,7 @@ import path from "path";
 import express from "express";
 import morgan from "morgan";
 const app = express();
-module.exports = app;
+// module.exports = app;
 
 // logging middleware
 app.use(morgan("dev"));
