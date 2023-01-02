@@ -53,7 +53,7 @@ function Radio() {
       </div>
       <div className="flex justify-center">
         {stations && station ? (
-          <div className="grid gap-20 pt-24 px-20 place-items-center">
+          <div className="grid gap-2 place-items-center">
             <img
               className="rounded-full h-40"
               src={station.favicon}
@@ -66,29 +66,10 @@ function Radio() {
             <RadioPlayer station={station} />
           </div>
         ) : (
-          <div className="grid gap-20 pt-24 px-20 place-items-center">
+          <div className="grid gap-20 place-items-center">
             Radio in 3...2...1...
           </div>
         )}
-        {/* {stations &&
-          stations.map((station, i) => {
-            return (
-              <div
-                className="grid gap-20 pt-24 px-20 place-items-center"
-                key={i}
-              >
-                <div>
-                  <img
-                    className="rounded-full h-40"
-                    src={station.favicon}
-                    onError={setDefaultSrc}
-                  />
-                  <div>{station.country}</div>
-                </div>
-                <RadioPlayer station={station} />
-              </div>
-            );
-          })} */}
       </div>
     </div>
   );

@@ -3,7 +3,6 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Radio from "./components/Radio";
 import Footer from "./components/Footer";
-import Visualizer from "./components/Visualizer";
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -76,7 +75,6 @@ function App() {
           <Navbar />
           <Home />
           <Radio />
-          {/* <Visualizer /> */}
           <Footer />
         </div>
       </div>

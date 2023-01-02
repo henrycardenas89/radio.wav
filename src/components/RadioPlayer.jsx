@@ -6,10 +6,10 @@ import AudioPlayer, { RHAP_UI } from "react-h5-audio-player";
 function RadioPlayer(props) {
   const { station } = props;
   return (
-    <div className="flex justify-center pb-20 max-w-screen-lg mx-auto">
+    <div className="flex justify-center pb-5 max-w-screen-lg mx-auto">
       <AudioPlayer
         className="w-60 rounded-full"
-        src={station.url}
+        src={station.urlResolved}
         autoPlayAfterSrcChange={true}
         volume={0.5}
         showJumpControls={false}
