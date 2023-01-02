@@ -5,4 +5,4 @@ Key technologies used in development include React for front-end rendering of UI
 
 Radio-browser-api was used to fetch radio data. Learn more about it here: https://github.com/ivandotv/radio-browser-api.
 
-YouTube video presentation/walkthrough:
+YouTube video presentation/walkthrough: https://youtu.be/0BZjK6SteMk
